@@ -8,8 +8,14 @@ Model 2: 2 Hidden layers (128 and 64 Neurons), 1 Dense Layers, 0.2 dropout rate,
 
 Model 3: 3 Hidden layers (128, 64, and 64 Neurons), 1 Dense Layers, 0.2 dropout rate, 50 epochs with 64 size batch set <br/>
 
-
 ## Installation Guide
+
+### Please update the following parameters to get the latest prediction on the specific model <br/>
+### data = yf.download('AAPL','2008-01-01',<TO_LATEST_DATE>) <br/>
+### new_data = yf.download('AAPL', <FROM_LATEST_DATE>) <br/> 
+
+This will allow the model to update the parameters and try to predict the price of the stock for the next 30 days. <br/>
+
 
 1) Download the "Explore_the_Data.ipynb
  Allow to explore the data
